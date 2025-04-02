@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  ai:
+    mcp:
+      client:
+        sse:
+          connections:
+            author-tools-server:
+              url: http://localhost:8080
